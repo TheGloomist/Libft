@@ -1,6 +1,12 @@
 #ifndef LIBFT_H
 # define LIBFT_H
 
+typedef struct  s_list
+{
+    void            *content;
+    struct s_list   *next;
+}   t_list;
+
 void	ft_calloc(size_t count, size_t size);
 char	*ft_strdup(const char *str);
 char	*ft_substr(char const *s, unsigned int start, size_t len);
