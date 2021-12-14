@@ -1,13 +1,14 @@
 #include <stdlib.h>
 #include <string.h>
 #include <stdio.h>
+#include "libft.h"
 
 char	*ft_substr(char const *s, unsigned int start, size_t len)
 {
 	char	*substr;
 	int		i;
 
-	if((start + len) > strlen(s))
+	if((start + len) > ft_strlen(s))
 		return(NULL);
 	substr = malloc(sizeof(char*) * (len + 1));
 	if(substr == NULL)
@@ -23,7 +24,7 @@ char	*ft_substr(char const *s, unsigned int start, size_t len)
 	return(substr);
 }
 
-/* int main (void)
+ int main (void)
 {
 	char	s[] = "Rito pls";
 	char	*substr;
@@ -31,4 +32,4 @@ char	*ft_substr(char const *s, unsigned int start, size_t len)
 	substr = ft_substr(s, 5, 3);
 	printf("%s\n", substr);
 	return(0);
-} */
+} 
