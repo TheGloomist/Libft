@@ -24,12 +24,12 @@ char	*ft_substr(char const *s, unsigned int start, size_t len)
 	return(substr);
 }
 
- int main (void)
-{
-	char	s[] = "Rito pls";
-	char	*substr;
+//  int main (void)
+// {
+// 	char	s[] = "Rito pls";
+// 	char	*substr;
 
-	substr = ft_substr(s, 5, 3);
-	printf("%s\n", substr);
-	return(0);
-} 
+// 	substr = ft_substr(s, 5, 3);
+// 	printf("%s\n", substr);
+// 	return(0);
+// } 

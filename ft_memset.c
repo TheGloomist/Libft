@@ -14,17 +14,17 @@ void	*ft_memset(void *b, int c, size_t len)
 	return (b);
 }
 
-int	main (void)
-{
-	char	str[50];
+// int	main (void)
+// {
+// 	char	str[50];
 
-	strcpy(str, "This keyboard confuses me");
-	puts(str);
+// 	strcpy(str, "This keyboard confuses me");
+// 	puts(str);
 
-	memset(str, 'F', 5);
-	puts(str);
-	ft_memset(str, 'A', 5);
-	puts(str);
+// 	memset(str, 'F', 5);
+// 	puts(str);
+// 	ft_memset(str, 'A', 5);
+// 	puts(str);
 
-	return (0);
-}
+// 	return (0);
+// }
