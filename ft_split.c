@@ -1,5 +1,6 @@
 #include <stdio.h>
 #include <stdlib.h>
+#include "libft.h"
 
 // function that counts the number of words
 static  int     word_count(const char *s, char c)
@@ -43,6 +44,7 @@ static int      let_count(const char *s, char c)
     return(let_count);
 }
 
+//can use calloc instead of malloc
 char	**ft_split(char const *s, char c)
 {
     char    **str_array;
@@ -51,7 +53,14 @@ char	**ft_split(char const *s, char c)
 
     w_count = word_count(s,c);
     str_array = malloc((w_count + 1) * sizeof(char*));
+    if(str_array = NULL)
+        return (NULL);
     i = 0;
+    while(i < w_count)
+    {
+        s = let_count(s,c);
+
+    }
 
 
 
