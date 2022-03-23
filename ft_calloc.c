@@ -7,8 +7,9 @@ void	*ft_calloc(size_t count, size_t size)
 	void	*dst;
 
 	s = size * count;
-	if(!(dst = malloc(s)))
-		return(0);
+	dst = malloc(s);
+	if (dst == NULL)
+		return (NULL);
 	ft_memset(dst, 0, s);
-		return(dst);
+	return (dst);
 }

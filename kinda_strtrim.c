@@ -61,8 +61,8 @@ char	*ft_strtrim(char const *s1, char const *set)
 	return(result(s1, set));
 }
 // remember to remove includes, change to ft_..
-int	main (void)
-{
-	printf("%s\n", ft_strtrim("ERG doERGggo ERGGGGGGG", "ERG"));
-	return(0);
-}
+// int	main (void)
+// {
+// 	printf("%s\n", ft_strtrim("ERG doERGggo ERGGGGGGG", "ERG"));
+// 	return(0);
+// }

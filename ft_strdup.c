@@ -20,12 +20,12 @@ char	*ft_strdup(const char *str)
 	return(dst);
 }
 
-int main (void) 
-{
-  char	src[] = "Loshad";
-  char *dst;
+// int  main (void) 
+// {
+//   char	src[] = "Loshad";
+//   char *dst;
 
-  dst = ft_strdup(src);
-  printf("%s\n", dst);
-  return(0);
-}
+//   dst = ft_strdup(src);
+//   printf("%s\n", dst);
+//   return(0);
+// }

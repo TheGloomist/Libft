@@ -2,6 +2,7 @@
 #include <string.h>
 #include <stdio.h>
 
+//replace stuff
 char	*ft_strjoin(char const *s1, char const *s2)
 {
 	char	*res;
@@ -23,13 +24,13 @@ char	*ft_strjoin(char const *s1, char const *s2)
 	return(res);
 }
 
-int 	main(void)
-{
-	char  	s1[] = "Rito";
-	char	s2[] =	"pls";
-	char	*res;
+// int 	main(void)
+// {
+// 	char  	s1[] = "Rito";
+// 	char	s2[] =	"pls";
+// 	char	*res;
 
-	res = ft_strjoin(s1, s2);
-	printf("%s\n", res);
-	return(0);
-}
+// 	res = ft_strjoin(s1, s2);
+// 	printf("%s\n", res);
+// 	return(0);
+// }

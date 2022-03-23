@@ -2,7 +2,7 @@
 #include <stdlib.h>
 #include "libft.h"
 
-// function that counts the number of words
+// count number of words
 static  int     word_count(const char *s, char c)
 {
     int    i;
@@ -81,7 +81,6 @@ char    **split_s(
     return(str_array);
 }
 
-//can use calloc instead of malloc
 char	**ft_split(char const *s, char c)
 {
     char    **str_array;
@@ -96,22 +95,22 @@ char	**ft_split(char const *s, char c)
     return(split_s(s, str_array, c, w_count));
 }
 
-int main(void)
-{
-    char str[] = "4444hopseflops4kaasbroodje44appel4midorfeed444";
-    char delimiter = '4';//UPDATE THIS MANUALLY OR YOU DIE
-    char **final = ft_split(str, delimiter);
-    for (int i = 0; final[i] != NULL; i++)
-         printf("%s\n", final[i]);
+// int main(void)
+// {
+//     char str[] = "4444hopseflops4kaasbroodje44appel4midorfeed444";
+//     char delimiter = '4';//UPDATE THIS MANUALLY OR YOU DIE
+//     char **final = ft_split(str, delimiter);
+//     for (int i = 0; final[i] != NULL; i++)
+//          printf("%s\n", final[i]);
 
-    char empty_str[] = "";
-    char **final2 = ft_split(empty_str, delimiter);
-    if (final2)
-        printf("final2 is empty string but allocated\n");
+//     char empty_str[] = "";
+//     char **final2 = ft_split(empty_str, delimiter);
+//     if (final2)
+//         printf("final2 is empty string but allocated\n");
     
-    char *null_ptr = NULL;
-    char **final3 = ft_split(null_ptr, '\0');
-    if (!final3)
-        printf("final3 is a nullptr\n");
-    return(0);
-}
+//     char *null_ptr = NULL;
+//     char **final3 = ft_split(null_ptr, '\0');
+//     if (!final3)
+//         printf("final3 is a nullptr\n");
+//     return(0);
+// }

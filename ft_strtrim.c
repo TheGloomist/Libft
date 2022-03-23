@@ -33,8 +33,8 @@ char    *ft_strtrim(char const *s1, char const *set)
     return(ft_substr(s1, 0, count));
 }
 
-int	main (void)
-{
-	printf("%s\n", ft_strtrim("SKR dogSKRgo SKRRR", "SKR"));
-	return(0);
-}
+// int	main (void)
+// {
+// 	printf("%s\n", ft_strtrim("SKR dogSKRgo SKRRR", "SKR"));
+// 	return(0);
+// }
