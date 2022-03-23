@@ -1,8 +1,8 @@
 #include <stdlib.h>
 #include <string.h>
 #include <stdio.h>
+#include "libft.h"
 
-//replace stuff
 char	*ft_strjoin(char const *s1, char const *s2)
 {
 	char	*res;
@@ -18,8 +18,8 @@ char	*ft_strjoin(char const *s1, char const *s2)
 	res = malloc(sizeof(char*) * join_len);
 	if(!res)
 		return(NULL);
-	memcpy(res, s1, s1_len);
-	memcpy(res + s1_len, s2, s2_len);
+	ft_memcpy(res, s1, s1_len);
+	ft_memcpy(res + s1_len, s2, s2_len);
 	res[s1_len + s2_len] = '\0';
 	return(res);
 }
