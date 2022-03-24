@@ -2,7 +2,6 @@
 #include <stdlib.h>
 #include "libft.h"
 
-// count number of words
 static  int     word_count(const char *s, char c)
 {
     int    i;
