@@ -1,3 +1,15 @@
+/* ************************************************************************** */
+/*                                                                            */
+/*                                                        ::::::::            */
+/*   libft.h                                            :+:    :+:            */
+/*                                                     +:+                    */
+/*   By: izaitcev <izaitcev@student.codam.nl>         +#+                     */
+/*                                                   +#+                      */
+/*   Created: 2022/03/25 19:09:19 by izaitcev      #+#    #+#                 */
+/*   Updated: 2022/03/25 19:09:21 by izaitcev      ########   odam.nl         */
+/*                                                                            */
+/* ************************************************************************** */
+
 #include <stdlib.h>
 #ifndef LIBFT_H
 # define LIBFT_H
@@ -18,6 +30,10 @@ void	*ft_memset(void *b, int c, size_t len);
 void	ft_bzero(void *s, size_t n);
 void    *ft_memcpy(void *restrict dst, const void *restrict src, size_t n);
 void    *ft_memmove(void *dst, const void *src, size_t len);
+size_t  strlcpy(char * restrict dst, const char * restrict src, size_t dstsize);
+
+int	ft_toupper(int c);
+int	ft_tolower(int c);
 
 void	*ft_calloc(size_t count, size_t size);
 char	*ft_strdup(const char *str);

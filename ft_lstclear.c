@@ -1,4 +1,16 @@
-#include <stdlib.h>
+/* ************************************************************************** */
+/*                                                                            */
+/*                                                        ::::::::            */
+/*   ft_lstclear.c                                      :+:    :+:            */
+/*                                                     +:+                    */
+/*   By: izaitcev <izaitcev@student.codam.nl>         +#+                     */
+/*                                                   +#+                      */
+/*   Created: 2022/03/25 18:58:07 by izaitcev      #+#    #+#                 */
+/*   Updated: 2022/03/25 18:58:11 by izaitcev      ########   odam.nl         */
+/*                                                                            */
+/* ************************************************************************** */
+
+
 #include "libft.h"
 
 void    ft_lstclear(t_list **lst, void (*del)(void*))

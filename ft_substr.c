@@ -1,6 +1,15 @@
-#include <stdlib.h>
-#include <string.h>
-#include <stdio.h>
+/* ************************************************************************** */
+/*                                                                            */
+/*                                                        ::::::::            */
+/*   ft_substr.c                                        :+:    :+:            */
+/*                                                     +:+                    */
+/*   By: izaitcev <izaitcev@student.codam.nl>         +#+                     */
+/*                                                   +#+                      */
+/*   Created: 2022/03/25 19:05:45 by izaitcev      #+#    #+#                 */
+/*   Updated: 2022/03/25 19:05:50 by izaitcev      ########   odam.nl         */
+/*                                                                            */
+/* ************************************************************************** */
+
 #include "libft.h"
 
 char	*ft_substr(char const *s, unsigned int start, size_t len)

@@ -1,5 +1,17 @@
-#include <stdio.h>
-#include <stdlib.h>
+/* ************************************************************************** */
+/*                                                                            */
+/*                                                        ::::::::            */
+/*   ft_split.c                                         :+:    :+:            */
+/*                                                     +:+                    */
+/*   By: izaitcev <izaitcev@student.codam.nl>         +#+                     */
+/*                                                   +#+                      */
+/*   Created: 2022/03/25 19:01:35 by izaitcev      #+#    #+#                 */
+/*   Updated: 2022/03/25 19:01:43 by izaitcev      ########   odam.nl         */
+/*                                                                            */
+/* ************************************************************************** */
+
+//#include <stdio.h>
+//#include <stdlib.h>
 #include "libft.h"
 
 static  int     word_count(const char *s, char c)

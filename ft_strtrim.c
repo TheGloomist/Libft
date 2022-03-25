@@ -1,4 +1,15 @@
-#include <stdlib.h>
+/* ************************************************************************** */
+/*                                                                            */
+/*                                                        ::::::::            */
+/*   ft_strtrim.c                                       :+:    :+:            */
+/*                                                     +:+                    */
+/*   By: izaitcev <izaitcev@student.codam.nl>         +#+                     */
+/*                                                   +#+                      */
+/*   Created: 2022/03/25 19:05:30 by izaitcev      #+#    #+#                 */
+/*   Updated: 2022/03/25 19:05:34 by izaitcev      ########   odam.nl         */
+/*                                                                            */
+/* ************************************************************************** */
+
 #include "libft.h"
 
 static int  in_set(char const *set, char c)

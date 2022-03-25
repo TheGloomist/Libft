@@ -8,7 +8,8 @@ char    *ft_strmapi (char const *s, char (*f)(unsigned int, char))
 
     if(!s)
         return (NULL);
-    if(!(res_str = malloc(sizeof(char*) * (ft_strlen(s) + 1))))
+    res_str = malloc(sizeof(char*) * (ft_strlen(s) + 1));
+    if(!res_str)
         return(NULL);
     i = 0;
     while(s)
@@ -16,6 +17,6 @@ char    *ft_strmapi (char const *s, char (*f)(unsigned int, char))
             res_str = f(i, s);
             i++;
         }
-    res_str[i] = '\O';
+    res_str[i] = '\0';
     return(res_str);
 }

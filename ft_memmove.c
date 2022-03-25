@@ -1,4 +1,16 @@
-#include <stdio.h>
+/* ************************************************************************** */
+/*                                                                            */
+/*                                                        ::::::::            */
+/*   ft_memmove.c                                       :+:    :+:            */
+/*                                                     +:+                    */
+/*   By: izaitcev <izaitcev@student.codam.nl>         +#+                     */
+/*                                                   +#+                      */
+/*   Created: 2022/03/25 18:59:37 by izaitcev      #+#    #+#                 */
+/*   Updated: 2022/03/25 18:59:40 by izaitcev      ########   odam.nl         */
+/*                                                                            */
+/* ************************************************************************** */
+
+
 #include "libft.h"
 
 void    *ft_memmove(void *dst, const void *src, size_t len)
