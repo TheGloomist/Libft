@@ -6,7 +6,7 @@
 /*   By: izaitcev <izaitcev@student.codam.nl>         +#+                     */
 /*                                                   +#+                      */
 /*   Created: 2022/03/25 18:57:19 by izaitcev      #+#    #+#                 */
-/*   Updated: 2022/03/25 18:57:21 by izaitcev      ########   odam.nl         */
+/*   Updated: 2022/03/26 17:30:44 by izaitcev      ########   odam.nl         */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -14,7 +14,7 @@
 
 int     ft_isprint(int c)
 {
-    if (c >= ' ' && c <= '˜')
+    if (c >= 040 && c <= 176)
         return (1);
     else
         return (0);    

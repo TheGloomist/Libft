@@ -6,7 +6,7 @@
 /*   By: izaitcev <izaitcev@student.codam.nl>         +#+                     */
 /*                                                   +#+                      */
 /*   Created: 2022/03/25 19:04:50 by izaitcev      #+#    #+#                 */
-/*   Updated: 2022/03/25 19:04:54 by izaitcev      ########   odam.nl         */
+/*   Updated: 2022/03/26 17:32:54 by izaitcev      ########   odam.nl         */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -14,8 +14,8 @@
 
 size_t  strlcpy(char * restrict dst, const char * restrict src, size_t dstsize)
 {
-    int     len;
-    int     i;
+    size_t     len;
+    size_t     i;
 
     if(!dst || !src)
         return(NULL);

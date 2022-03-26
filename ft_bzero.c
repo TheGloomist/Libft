@@ -6,7 +6,7 @@
 /*   By: izaitcev <izaitcev@student.codam.nl>         +#+                     */
 /*                                                   +#+                      */
 /*   Created: 2022/03/25 18:54:25 by izaitcev      #+#    #+#                 */
-/*   Updated: 2022/03/25 18:54:58 by izaitcev      ########   odam.nl         */
+/*   Updated: 2022/03/26 17:11:47 by izaitcev      ########   odam.nl         */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -20,6 +20,6 @@ void	ft_bzero(void *s, size_t n)
 	while (n--)
 	{
 		*location = '\0';
-		*location++;
+		(*location)++;
 	}
 }

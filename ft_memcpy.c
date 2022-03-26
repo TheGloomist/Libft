@@ -6,7 +6,7 @@
 /*   By: izaitcev <izaitcev@student.codam.nl>         +#+                     */
 /*                                                   +#+                      */
 /*   Created: 2022/03/25 18:59:11 by izaitcev      #+#    #+#                 */
-/*   Updated: 2022/03/25 18:59:18 by izaitcev      ########   odam.nl         */
+/*   Updated: 2022/03/26 17:12:19 by izaitcev      ########   odam.nl         */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -14,7 +14,7 @@
 
 void    *ft_memcpy(void *restrict dst, const void *restrict src, size_t n)
 {
-    int     i;
+    size_t     i;
 
     if(!src)
         return(NULL);

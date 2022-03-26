@@ -6,7 +6,7 @@
 /*   By: izaitcev <izaitcev@student.codam.nl>         +#+                     */
 /*                                                   +#+                      */
 /*   Created: 2022/03/25 18:55:44 by izaitcev      #+#    #+#                 */
-/*   Updated: 2022/03/25 18:56:08 by izaitcev      ########   odam.nl         */
+/*   Updated: 2022/03/26 17:26:41 by izaitcev      ########   odam.nl         */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -14,7 +14,7 @@
 
 int ft_isalnum(int c)
 {
-    if (c >= 'A' && c <= 'Z' || c >= 'a' && c<= 'z')
+    if ((c >= 'A' && c <= 'Z') || (c >= 'a' && c<= 'z'))
         return (1);
     else if (c >= '0' && c<= '9')
         return (1);
