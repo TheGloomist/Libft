@@ -6,7 +6,7 @@
 /*   By: izaitcev <izaitcev@student.codam.nl>         +#+                     */
 /*                                                   +#+                      */
 /*   Created: 2022/03/25 19:05:45 by izaitcev      #+#    #+#                 */
-/*   Updated: 2022/03/25 19:05:50 by izaitcev      ########   odam.nl         */
+/*   Updated: 2022/03/29 15:52:30 by izaitcev      ########   odam.nl         */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -15,7 +15,7 @@
 char	*ft_substr(char const *s, unsigned int start, size_t len)
 {
 	char	*substr;
-	int		i;
+	size_t		i;
 
 	if((start + len) > ft_strlen(s))
 		return(NULL);

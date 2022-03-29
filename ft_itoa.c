@@ -6,26 +6,26 @@
 /*   By: izaitcev <izaitcev@student.codam.nl>         +#+                     */
 /*                                                   +#+                      */
 /*   Created: 2022/03/25 18:57:26 by izaitcev      #+#    #+#                 */
-/*   Updated: 2022/03/25 18:57:30 by izaitcev      ########   odam.nl         */
+/*   Updated: 2022/03/29 15:52:54 by izaitcev      ########   odam.nl         */
 /*                                                                            */
 /* ************************************************************************** */
 
-#include "libft.h"
+// #include "libft.h"
 
-int     check_neg(int n)
-{
-    if (n < 0)
-        return(-1);
-    return(1);
-}
+// int     check_neg(int n)
+// {
+//     if (n < 0)
+//         return(-1);
+//     return(1);
+// }
 
-char    *ft_itoa(int n)
-{
-    char    *str;
-    int     neg;
+// char    *ft_itoa(int n)
+// {
+//     char    *str;
+//     int     neg;
 
-    neg = check_neg(n);
+//     neg = check_neg(n);
     
 
-    return(str);
-}
+//     return(str);
+// }
