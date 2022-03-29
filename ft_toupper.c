@@ -6,7 +6,7 @@
 /*   By: izaitcev <izaitcev@student.codam.nl>         +#+                     */
 /*                                                   +#+                      */
 /*   Created: 2022/03/25 19:07:18 by izaitcev      #+#    #+#                 */
-/*   Updated: 2022/03/25 19:07:19 by izaitcev      ########   odam.nl         */
+/*   Updated: 2022/03/29 19:23:56 by izaitcev      ########   odam.nl         */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -14,7 +14,7 @@
 
 int	ft_toupper(int c)
 {
-	if(c <= 97 && c >= 122)
-		return(c - 32);
-	return(c);
+	if (c <= 97 && c >= 122)
+		return (c - 32);
+	return (c);
 }
