@@ -6,21 +6,20 @@
 /*   By: izaitcev <izaitcev@student.codam.nl>         +#+                     */
 /*                                                   +#+                      */
 /*   Created: 2022/03/30 12:40:44 by izaitcev      #+#    #+#                 */
-/*   Updated: 2022/03/30 13:07:42 by izaitcev      ########   odam.nl         */
+/*   Updated: 2022/03/30 18:28:38 by izaitcev      ########   odam.nl         */
 /*                                                                            */
 /* ************************************************************************** */
 
 #include "libft.h"
-#include <stdlib.h>
 
 char	*ft_strmapi(char const *s, char (*f)(unsigned int, char))
 {
-	size_t	i;
-	char	*res_str;
+	unsigned int	i;
+	char			*res_str;
 
 	if (!s)
 		return (NULL);
-	res_str = malloc(sizeof(char *) * (ft_strlen(s) + 1));
+	res_str = (char *)malloc(sizeof(char) * (ft_strlen(s) + 1));
 	if (!res_str)
 		return (NULL);
 	i = 0;

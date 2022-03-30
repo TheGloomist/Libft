@@ -6,7 +6,7 @@
 /*   By: izaitcev <izaitcev@student.codam.nl>         +#+                     */
 /*                                                   +#+                      */
 /*   Created: 2022/03/25 18:54:25 by izaitcev      #+#    #+#                 */
-/*   Updated: 2022/03/30 12:30:26 by izaitcev      ########   odam.nl         */
+/*   Updated: 2022/03/30 15:51:10 by izaitcev      ########   odam.nl         */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -14,12 +14,5 @@
 
 void	ft_bzero(void *s, size_t n)
 {
-	char	*location;
-
-	location = s;
-	while (n--)
-	{
-		*location = '\0';
-		(*location)++;
-	}
+	ft_memset(s, '\0', n);
 }
