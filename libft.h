@@ -6,7 +6,7 @@
 /*   By: izaitcev <izaitcev@student.codam.nl>         +#+                     */
 /*                                                   +#+                      */
 /*   Created: 2022/03/25 19:09:19 by izaitcev      #+#    #+#                 */
-/*   Updated: 2022/04/01 17:29:29 by izaitcev      ########   odam.nl         */
+/*   Updated: 2022/04/01 19:09:16 by izaitcev      ########   odam.nl         */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -35,6 +35,7 @@ size_t	ft_strlcat(char *restrict dst, const char *restrict src, size_t dstsize);
 int		ft_toupper(int c);
 int		ft_tolower(int c);
 char	*ft_strchr(const char *s, int c);
+char	*ft_strrchr(const char *s, int c);
 
 void	*ft_calloc(size_t count, size_t size);
 char	*ft_strdup(const char *str);
