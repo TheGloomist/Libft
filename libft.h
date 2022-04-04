@@ -6,7 +6,7 @@
 /*   By: izaitcev <izaitcev@student.codam.nl>         +#+                     */
 /*                                                   +#+                      */
 /*   Created: 2022/03/25 19:09:19 by izaitcev      #+#    #+#                 */
-/*   Updated: 2022/04/03 21:20:14 by izaitcev      ########   odam.nl         */
+/*   Updated: 2022/04/04 02:18:29 by izaitcev      ########   odam.nl         */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -38,6 +38,7 @@ char	*ft_strchr(const char *s, int c);
 char	*ft_strrchr(const char *s, int c);
 int		ft_strncmp(const char *s1, const char *s2, size_t n);
 void	*ft_memchr(const void *s, int c, size_t n);
+int		ft_memcmp(const void *s1, const void *s2, size_t n);
 
 void	*ft_calloc(size_t count, size_t size);
 char	*ft_strdup(const char *str);
