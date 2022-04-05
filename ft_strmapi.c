@@ -6,7 +6,7 @@
 /*   By: izaitcev <izaitcev@student.codam.nl>         +#+                     */
 /*                                                   +#+                      */
 /*   Created: 2022/03/30 12:40:44 by izaitcev      #+#    #+#                 */
-/*   Updated: 2022/03/30 18:28:38 by izaitcev      ########   odam.nl         */
+/*   Updated: 2022/04/05 17:14:31 by izaitcev      ########   odam.nl         */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -23,7 +23,7 @@ char	*ft_strmapi(char const *s, char (*f)(unsigned int, char))
 	if (!res_str)
 		return (NULL);
 	i = 0;
-	while (s)
+	while (i < ft_strlen(s))
 	{
 		res_str[i] = f(i, s[i]);
 		i++;
