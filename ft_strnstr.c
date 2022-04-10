@@ -6,7 +6,7 @@
 /*   By: izaitcev <izaitcev@student.codam.nl>         +#+                     */
 /*                                                   +#+                      */
 /*   Created: 2022/03/29 15:51:37 by izaitcev      #+#    #+#                 */
-/*   Updated: 2022/04/05 19:39:19 by izaitcev      ########   odam.nl         */
+/*   Updated: 2022/04/08 19:00:57 by izaitcev      ########   odam.nl         */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -24,9 +24,9 @@ char	*ft_strnstr(const char *haystack, const char *needle, size_t len)
 	if (!needle[0])
 		return ((char *)haystack);
 	h_i = 0;
-	n_i = 0;
 	while (haystack[h_i])
 	{
+		n_i = 0;
 		while (haystack[h_i + n_i] == needle[n_i] && h_i + n_i < len)
 		{
 			if (!haystack[h_i + n_i] && !needle[n_i])
@@ -43,12 +43,12 @@ char	*ft_strnstr(const char *haystack, const char *needle, size_t len)
 // int	main()
 // {
 // 	char	haystack[] = "Things are only impossible until they're not";
-// 	char	needle[] = "only";
+// 	char	needle[] = "onlyy";
 // 	char	*result;
 
-// 	// result = strnstr(haystack, needle, 20);
-// 	// printf("%s\n", result);
-// 	result = ft_strnstr(haystack, needle, 20);
+// 	result = strnstr(haystack, needle, 45);
+// 	printf("%s\n", result);
+// 	result = ft_strnstr(haystack, needle, 45);
 // 	printf("%s\n", result);
 // 	return(0);
 // }
