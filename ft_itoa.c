@@ -6,7 +6,7 @@
 /*   By: izaitcev <izaitcev@student.codam.nl>         +#+                     */
 /*                                                   +#+                      */
 /*   Created: 2022/03/25 18:57:26 by izaitcev      #+#    #+#                 */
-/*   Updated: 2022/04/13 19:27:21 by izaitcev      ########   odam.nl         */
+/*   Updated: 2022/04/14 14:04:25 by izaitcev      ########   odam.nl         */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -14,14 +14,14 @@
 #include <stdio.h>
 #include "libft.h"
 
-int     check_neg(int n)
+int	check_neg(int n)
 {
-    if (n < 0)
-        return(-1);
-    return(1);
+	if (n < 0)
+		return (-1);
+	return (1);
 }
 
-int		get_length(int n)
+int	get_length(int n)
 {
 	int	len;
 
@@ -30,24 +30,24 @@ int		get_length(int n)
 		len++;
 	while (n > 0)
 	{
-		n = n / 10;		
+		n = n / 10;
 		len++;
 	}
 	return (len);
 }
 
-char    *ft_itoa(int n)
+char	*ft_itoa(int n)
 {
-    char    *str;
-    int     neg;
+	char	*str;
+	int		neg;
 	int		i;
 	int		len;
 
 	len = get_length(n);
 	str = (char *)malloc(sizeof(char) * (len + 1));
 	if (!str)
-		return(NULL);
-    neg = check_neg(n);
+		return (NULL);
+	neg = check_neg(n);
 	i = 0;
 	if (neg == -1)
 	{
@@ -61,7 +61,7 @@ char    *ft_itoa(int n)
 		n = n / 10;
 	}
 	str[i] = '\0';
-    return(str);
+	return (str);
 }
 
 int	main()
