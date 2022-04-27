@@ -6,7 +6,7 @@
 /*   By: izaitcev <izaitcev@student.codam.nl>         +#+                     */
 /*                                                   +#+                      */
 /*   Created: 2022/03/25 19:03:07 by izaitcev      #+#    #+#                 */
-/*   Updated: 2022/03/30 13:11:11 by izaitcev      ########   odam.nl         */
+/*   Updated: 2022/04/27 21:15:07 by izaitcev      ########   odam.nl         */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -24,7 +24,7 @@ char	*ft_strjoin(char const *s1, char const *s2)
 	s1_len = ft_strlen(s1);
 	s2_len = ft_strlen(s2);
 	join_len = s2_len + s1_len + 1;
-	res = malloc(sizeof(char *) * join_len);
+	res = malloc(sizeof(char) * join_len);
 	if (!res)
 		return (NULL);
 	ft_memcpy(res, s1, s1_len);

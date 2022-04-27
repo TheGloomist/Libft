@@ -6,13 +6,13 @@
 /*   By: izaitcev <izaitcev@student.codam.nl>         +#+                     */
 /*                                                   +#+                      */
 /*   Created: 2022/03/25 18:59:11 by izaitcev      #+#    #+#                 */
-/*   Updated: 2022/03/29 16:23:43 by izaitcev      ########   odam.nl         */
+/*   Updated: 2022/04/27 19:06:50 by izaitcev      ########   odam.nl         */
 /*                                                                            */
 /* ************************************************************************** */
 
 #include "libft.h"
 
-void	*ft_memcpy(void *restrict dst, const void *restrict src, size_t n)
+void	*ft_memcpy(void *dst, const void *src, size_t n)
 {
 	size_t	i;
 

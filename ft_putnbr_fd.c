@@ -6,7 +6,7 @@
 /*   By: izaitcev <izaitcev@student.codam.nl>         +#+                     */
 /*                                                   +#+                      */
 /*   Created: 2022/03/25 19:01:03 by izaitcev      #+#    #+#                 */
-/*   Updated: 2022/04/26 15:12:01 by izaitcev      ########   odam.nl         */
+/*   Updated: 2022/04/27 21:17:41 by izaitcev      ########   odam.nl         */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -24,7 +24,7 @@ void	ft_putnbr_fd(int n, int fd)
 			ft_putnbr_fd(n / 10, fd);
 		ft_putchar_fd(n % 10 + '0', fd);
 	}
-	else if (n > 10)
+	else if (n >= 10)
 	{
 		ft_putnbr_fd(n / 10, fd);
 		ft_putchar_fd(n % 10 + '0', fd);
