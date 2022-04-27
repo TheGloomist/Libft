@@ -6,13 +6,13 @@
 /*   By: izaitcev <izaitcev@student.codam.nl>         +#+                     */
 /*                                                   +#+                      */
 /*   Created: 2022/03/25 18:58:40 by izaitcev      #+#    #+#                 */
-/*   Updated: 2022/03/29 16:19:26 by izaitcev      ########   odam.nl         */
+/*   Updated: 2022/04/27 16:00:18 by izaitcev      ########   odam.nl         */
 /*                                                                            */
 /* ************************************************************************** */
 
 #include "libft.h"
 
-int	ft_lstlast(t_list *lst)
+t_list	*ft_lstlast(t_list *lst)
 {
 	while (lst)
 	{

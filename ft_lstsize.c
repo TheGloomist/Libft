@@ -6,7 +6,7 @@
 /*   By: izaitcev <izaitcev@student.codam.nl>         +#+                     */
 /*                                                   +#+                      */
 /*   Created: 2022/03/25 18:59:00 by izaitcev      #+#    #+#                 */
-/*   Updated: 2022/03/29 16:22:55 by izaitcev      ########   odam.nl         */
+/*   Updated: 2022/04/27 16:03:52 by izaitcev      ########   odam.nl         */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -17,9 +17,7 @@ int	ft_lstsize(t_list *lst)
 	int	i;
 
 	i = 0;
-	if (!lst)
-		return (NULL);
-		while (lst)
+	while (lst)
 	{
 		i++;
 		lst = lst->next;

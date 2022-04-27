@@ -6,7 +6,7 @@
 #    By: izaitcev <izaitcev@student.codam.nl>         +#+                      #
 #                                                    +#+                       #
 #    Created: 2022/03/26 17:08:42 by izaitcev      #+#    #+#                  #
-#    Updated: 2022/03/26 17:08:53 by izaitcev      ########   odam.nl          #
+#    Updated: 2022/04/27 16:02:49 by izaitcev      ########   odam.nl          #
 #                                                                              #
 # **************************************************************************** #
 
@@ -43,7 +43,17 @@ SRCS = ft_memset.c	  \
 	ft_putendl_fd.c \
 	ft_putnbr_fd.c \
 	ft_striteri.c \
-	ft_split.c 
+	ft_split.c \
+	ft_lstnew.c \
+	ft_lstadd_front.c \
+	ft_lstsize.c \
+	ft_lstlast.c \
+	ft_lstadd_back.c \
+	ft_lstdelone.c \
+	ft_lstclear.c \
+	ft_lstiter.c \
+	ft_lstmap.c \
+	
 
 NAME = libft.a
 CC = clang
