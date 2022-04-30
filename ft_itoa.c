@@ -6,7 +6,7 @@
 /*   By: izaitcev <izaitcev@student.codam.nl>         +#+                     */
 /*                                                   +#+                      */
 /*   Created: 2022/03/25 18:57:26 by izaitcev      #+#    #+#                 */
-/*   Updated: 2022/04/26 14:40:42 by izaitcev      ########   odam.nl         */
+/*   Updated: 2022/04/30 20:45:32 by izaitcev      ########   odam.nl         */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -21,7 +21,7 @@ int	check_neg(long int n)
 	return (1);
 }
 
-int	get_length(long int n)
+int	n_length(long int n)
 {
 	int	len;
 
@@ -61,7 +61,7 @@ char	*ft_itoa(int n)
 	long int	num;
 
 	num = n;
-	len = get_length(n);
+	len = n_length(n);
 	str = (char *)malloc(sizeof(char) * (len + 1));
 	if (!str)
 		return (NULL);

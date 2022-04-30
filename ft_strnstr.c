@@ -6,7 +6,7 @@
 /*   By: izaitcev <izaitcev@student.codam.nl>         +#+                     */
 /*                                                   +#+                      */
 /*   Created: 2022/03/29 15:51:37 by izaitcev      #+#    #+#                 */
-/*   Updated: 2022/04/08 19:00:57 by izaitcev      ########   odam.nl         */
+/*   Updated: 2022/04/30 21:51:28 by izaitcev      ########   odam.nl         */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -19,8 +19,6 @@ char	*ft_strnstr(const char *haystack, const char *needle, size_t len)
 	size_t	h_i;
 	size_t	n_i;
 
-	if (!haystack)
-		return (NULL);
 	if (!needle[0])
 		return ((char *)haystack);
 	h_i = 0;

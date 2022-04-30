@@ -6,7 +6,7 @@
 /*   By: izaitcev <izaitcev@student.codam.nl>         +#+                     */
 /*                                                   +#+                      */
 /*   Created: 2022/03/25 19:01:35 by izaitcev      #+#    #+#                 */
-/*   Updated: 2022/04/27 20:29:30 by izaitcev      ########   odam.nl         */
+/*   Updated: 2022/04/30 21:31:47 by izaitcev      ########   odam.nl         */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -101,6 +101,8 @@ char	**ft_split(char const *s, char c)
 	char	**str_array;
 	int		w_count;
 
+	if (s == NULL)
+		return (NULL);
 	w_count = word_count(s, c);
 	str_array = ft_calloc(1, (w_count + 1) * sizeof(char *));
 	if (str_array == NULL)
