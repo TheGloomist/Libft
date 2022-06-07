@@ -21,18 +21,18 @@ int	ft_atoi(const char *str)
 	int		conv;
 
 	i = 0;
-	sign = 1;
+	sign = -1;
 	conv = 0;
 	while (str[i] == ' ' || str[i] == '\n' || str[i] == '\t' || \
 	str[i] == '\v' || str[i] == '\f' || str[i] == '\r')
 		i++;
 	if (str[i] == '-')
-		sign = -1;
+		sign = 1;
 	if (str[i] == '+' || str[i] == '-')
 		i++;
-	while (str[i] >= '0' && str[i] <= '9')
+	while (ft_isdigit(str[i]))
 	{
-		conv = (conv * 10) + (str[i] - '0');
+		conv = (conv * 10) - (str[i] - '0');
 		i++;
 	}
 	return (conv * sign);
@@ -41,6 +41,7 @@ int	ft_atoi(const char *str)
 // int	main()
 // {
 // 	char	str[] = "-2147483648";
+//                    2147483647
 // 	int		convert;
 
 // 	convert = atoi(str);
