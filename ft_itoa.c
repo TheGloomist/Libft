@@ -6,12 +6,10 @@
 /*   By: izaitcev <izaitcev@student.codam.nl>         +#+                     */
 /*                                                   +#+                      */
 /*   Created: 2022/03/25 18:57:26 by izaitcev      #+#    #+#                 */
-/*   Updated: 2022/04/30 20:45:32 by izaitcev      ########   odam.nl         */
+/*   Updated: 2022/04/30 22:14:29 by izaitcev      ########   odam.nl         */
 /*                                                                            */
 /* ************************************************************************** */
 
-// #include <stdlib.h>
-// #include <stdio.h>
 #include "libft.h"
 
 int	check_neg(long int n)
@@ -77,17 +75,3 @@ char	*ft_itoa(int n)
 	str[len] = '\0';
 	return (str);
 }
-
-// int	main()
-// {
-// 	int		num = -12345;
-// 	// int		len;
-// 	char	*str;
-
-// 	str = ft_itoa(num);
-// // 	// len = get_length(num);
-// // 	// printf("%i\n", len);
-// 	printf("%s\n", str);
-
-// 	return (0);
-// }

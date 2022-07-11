@@ -6,7 +6,7 @@
 /*   By: izaitcev <izaitcev@student.codam.nl>         +#+                     */
 /*                                                   +#+                      */
 /*   Created: 2022/03/25 19:00:03 by izaitcev      #+#    #+#                 */
-/*   Updated: 2022/03/29 19:03:17 by izaitcev      ########   odam.nl         */
+/*   Updated: 2022/04/30 22:18:26 by izaitcev      ########   odam.nl         */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -24,18 +24,3 @@ void	*ft_memset(void *b, int c, size_t len)
 	}
 	return (b);
 }
-
-// int	main (void)
-// {
-// 	char	str[50];
-
-// 	strcpy(str, "This keyboard confuses me");
-// 	puts(str);
-
-// 	memset(str, 'F', 5);
-// 	puts(str);
-// 	ft_memset(str, 'A', 5);
-// 	puts(str);
-
-// 	return (0);
-// }

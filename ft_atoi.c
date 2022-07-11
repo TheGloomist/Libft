@@ -6,12 +6,10 @@
 /*   By: izaitcev <izaitcev@student.codam.nl>         +#+                     */
 /*                                                   +#+                      */
 /*   Created: 2022/03/29 15:51:58 by izaitcev      #+#    #+#                 */
-/*   Updated: 2022/04/13 13:05:33 by izaitcev      ########   odam.nl         */
+/*   Updated: 2022/04/30 22:12:55 by izaitcev      ########   odam.nl         */
 /*                                                                            */
 /* ************************************************************************** */
 
-// #include <stdio.h>
-// #include <stdlib.h>
 #include "libft.h"
 
 int	ft_atoi(const char *str)
@@ -37,17 +35,3 @@ int	ft_atoi(const char *str)
 	}
 	return (conv * sign);
 }
-
-// int	main()
-// {
-// 	char	str[] = "-2147483648";
-// 	int		convert;
-
-// 	convert = atoi(str);
-// 	printf("%i\n", convert);
-
-// 	convert = ft_atoi(str);
-// 	printf("%i\n", convert);
-
-// 	return (0);
-// }

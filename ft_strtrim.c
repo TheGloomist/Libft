@@ -6,7 +6,7 @@
 /*   By: izaitcev <izaitcev@student.codam.nl>         +#+                     */
 /*                                                   +#+                      */
 /*   Created: 2022/03/25 19:05:30 by izaitcev      #+#    #+#                 */
-/*   Updated: 2022/03/30 13:13:41 by izaitcev      ########   odam.nl         */
+/*   Updated: 2022/04/30 22:17:36 by izaitcev      ########   odam.nl         */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -42,9 +42,3 @@ char	*ft_strtrim(char const *s1, char const *set)
 	}
 	return (ft_substr(s1, 0, count));
 }
-
-// int	main (void)
-// {
-// 	printf("%s\n", ft_strtrim("SKR dogSKRgo SKRRR", "SKR"));
-// 	return(0);
-// }

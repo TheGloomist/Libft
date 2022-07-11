@@ -6,7 +6,7 @@
 /*   By: izaitcev <izaitcev@student.codam.nl>         +#+                     */
 /*                                                   +#+                      */
 /*   Created: 2022/03/25 19:04:50 by izaitcev      #+#    #+#                 */
-/*   Updated: 2022/04/30 21:51:42 by izaitcev      ########   odam.nl         */
+/*   Updated: 2022/04/30 22:16:43 by izaitcev      ########   odam.nl         */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -30,8 +30,3 @@ size_t	ft_strlcpy(char *dst, const char *src, size_t dstsize)
 	}
 	return (len);
 }
-
-// int main()
-// {
-
-// }

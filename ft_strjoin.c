@@ -6,7 +6,7 @@
 /*   By: izaitcev <izaitcev@student.codam.nl>         +#+                     */
 /*                                                   +#+                      */
 /*   Created: 2022/03/25 19:03:07 by izaitcev      #+#    #+#                 */
-/*   Updated: 2022/04/27 21:15:07 by izaitcev      ########   odam.nl         */
+/*   Updated: 2022/04/30 22:17:28 by izaitcev      ########   odam.nl         */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -32,14 +32,3 @@ char	*ft_strjoin(char const *s1, char const *s2)
 	res[s1_len + s2_len] = '\0';
 	return (res);
 }
-
-// int 	main(void)
-// {
-// 	char  	s1[] = "Rito";
-// 	char	s2[] =	"pls";
-// 	char	*res;
-
-// 	res = ft_strjoin(s1, s2);
-// 	printf("%s\n", res);
-// 	return(0);
-// }

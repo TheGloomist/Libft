@@ -6,7 +6,7 @@
 /*   By: izaitcev <izaitcev@student.codam.nl>         +#+                     */
 /*                                                   +#+                      */
 /*   Created: 2022/03/25 19:02:19 by izaitcev      #+#    #+#                 */
-/*   Updated: 2022/03/29 19:07:51 by izaitcev      ########   odam.nl         */
+/*   Updated: 2022/04/30 22:16:17 by izaitcev      ########   odam.nl         */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -29,13 +29,3 @@ char	*ft_strdup(const char *str)
 	dst[i] = '\0';
 	return (dst);
 }
-
-// int  main (void) 
-// {
-//   char	src[] = "Loshad";
-//   char *dst;
-
-//   dst = ft_strdup(src);
-//   printf("%s\n", dst);
-//   return(0);
-// }

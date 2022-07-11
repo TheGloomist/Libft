@@ -6,12 +6,10 @@
 /*   By: izaitcev <izaitcev@student.codam.nl>         +#+                     */
 /*                                                   +#+                      */
 /*   Created: 2022/03/25 19:03:53 by izaitcev      #+#    #+#                 */
-/*   Updated: 2022/04/27 19:08:33 by izaitcev      ########   odam.nl         */
+/*   Updated: 2022/04/30 22:16:37 by izaitcev      ########   odam.nl         */
 /*                                                                            */
 /* ************************************************************************** */
 
-// #include <stdio.h>
-// #include <string.h>
 #include "libft.h"
 
 size_t	ft_strlcat(char *dst, const char *src, size_t dstsize)
@@ -36,22 +34,3 @@ size_t	ft_strlcat(char *dst, const char *src, size_t dstsize)
 	dst[dst_i] = '\0';
 	return (dst_len + src_len);
 }
-
-// if (dst_len < dstsize - 1 && dstsize > 0)
-	// {
-	// 	while (src[src_i] && dst_len + 1 > dstsize - 1)
-	// 	{
-	// 		dst[dst_i] = src[src_i];
-	// 		dst_i++;
-	// 		src_i++;
-	// 	}
-	// }
-	// if (dst_len >= dstsize)
-	// 	dst_len = dstsize;
-
-// int main()
-// {
-// 	char str1[] = "dst string";
-// 	char str2[] = "src string";
-
-// }

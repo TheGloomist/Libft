@@ -6,7 +6,7 @@
 /*   By: izaitcev <izaitcev@student.codam.nl>         +#+                     */
 /*                                                   +#+                      */
 /*   Created: 2022/03/25 19:05:45 by izaitcev      #+#    #+#                 */
-/*   Updated: 2022/03/30 16:59:44 by izaitcev      ########   odam.nl         */
+/*   Updated: 2022/04/30 22:17:41 by izaitcev      ########   odam.nl         */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -36,13 +36,3 @@ char	*ft_substr(char const *s, unsigned int start, size_t len)
 	substr[i] = '\0';
 	return (substr);
 }
-
-//  int main (void)
-// {
-// 	char	s[] = "Rito pls";
-// 	char	*substr;
-
-// 	substr = ft_substr(s, 5, 3);
-// 	printf("%s\n", substr);
-// 	return(0);
-// } 
